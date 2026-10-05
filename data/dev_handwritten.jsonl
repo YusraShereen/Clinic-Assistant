@@ -1,0 +1,72 @@
+{"lang": "en", "text": "hey can i get an appointment with dr sara malik on friday", "intent": "book_appointment", "entities": [{"type": "DOCTOR", "text": "dr sara malik"}, {"type": "DATE", "text": "friday"}]}
+{"lang": "en", "text": "my mother has chest pain since last night who should we see", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "chest pain"}]}
+{"lang": "en", "text": "how much does the skin doctor charge for a first visit", "intent": "fees_query", "entities": [{"type": "DEPARTMENT", "text": "skin doctor"}]}
+{"lang": "en", "text": "pls cancel my booking for tomorrow", "intent": "cancel_appointment", "entities": [{"type": "DATE", "text": "tomorrow"}]}
+{"lang": "ur", "text": "مجھے کل شام 5 بجے ڈاکٹر بلال حسین سے ملنا ہے", "intent": "book_appointment", "entities": [{"type": "DATE", "text": "کل"}, {"type": "TIME", "text": "شام 5 بجے"}, {"type": "DOCTOR", "text": "ڈاکٹر بلال حسین"}]}
+{"lang": "ur", "text": "میرے بیٹے کو تین دن سے بخار ہے کون سا ڈاکٹر دیکھے گا", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "بخار"}]}
+{"lang": "ur", "text": "کیا اتوار کو کلینک کھلا ہوتا ہے", "intent": "clinic_info", "entities": [{"type": "DATE", "text": "اتوار"}]}
+{"lang": "ur", "text": "مجھے آپریٹر سے بات کروا دیں", "intent": "talk_to_human", "entities": []}
+{"lang": "rur", "text": "assalam o alaikum kal subah 10 baje ke liye appointment chahiye cardiology mein", "intent": "book_appointment", "entities": [{"type": "DATE", "text": "kal"}, {"type": "TIME", "text": "subah 10 baje"}, {"type": "DEPARTMENT", "text": "cardiology"}]}
+{"lang": "rur", "text": "bhai meri appointment shift ho sakti hai parso pe", "intent": "reschedule_appointment", "entities": [{"type": "DATE", "text": "parso"}]}
+{"lang": "rur", "text": "fees kitni lagti hai dr imran sheikh ki", "intent": "fees_query", "entities": [{"type": "DOCTOR", "text": "dr imran sheikh"}]}
+{"lang": "rur", "text": "mujhe sar dard aur ulti ho rahi hai", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "sar dard"}, {"type": "SYMPTOM", "text": "ulti"}]}
+{"lang": "en", "text": "hi im looking for an appointment in dermatology next week any availability", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "dermatology"}, {"type": "DATE", "text": "next week"}]}
+{"lang": "en", "text": "need to see dr farhan qureshi at 8 pm tomorrow if possible", "intent": "book_appointment", "entities": [{"type": "DOCTOR", "text": "dr farhan qureshi"}, {"type": "TIME", "text": "8 pm"}, {"type": "DATE", "text": "tomorrow"}]}
+{"lang": "en", "text": "can u book my daughter in with pediatrics on monday", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "pediatrics"}, {"type": "DATE", "text": "monday"}]}
+{"lang": "en", "text": "i want a checkup for my father in orthopedics on saturday", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "orthopedics"}, {"type": "DATE", "text": "saturday"}]}
+{"lang": "en", "text": "sorry cant come today plz cancel my appointment with dr ayesha siddiqui", "intent": "cancel_appointment", "entities": [{"type": "DATE", "text": "today"}, {"type": "DOCTOR", "text": "dr ayesha siddiqui"}]}
+{"lang": "en", "text": "cancel the 4:30 pm slot i booked", "intent": "cancel_appointment", "entities": [{"type": "TIME", "text": "4:30 pm"}]}
+{"lang": "en", "text": "could we push my appointment from friday to next monday", "intent": "reschedule_appointment", "entities": [{"type": "DATE", "text": "friday"}, {"type": "DATE", "text": "next monday"}]}
+{"lang": "en", "text": "i have a meeting can i come at 6 pm instead of 5 pm", "intent": "reschedule_appointment", "entities": [{"type": "TIME", "text": "6 pm"}, {"type": "TIME", "text": "5 pm"}]}
+{"lang": "en", "text": "need another day for my appointment with dr sara malik", "intent": "reschedule_appointment", "entities": [{"type": "DOCTOR", "text": "dr sara malik"}]}
+{"lang": "en", "text": "hey are u guys open on sunday", "intent": "clinic_info", "entities": [{"type": "DATE", "text": "sunday"}]}
+{"lang": "en", "text": "whats the nearest landmark to ur clinic", "intent": "clinic_info", "entities": []}
+{"lang": "en", "text": "does dr bilal hussain sit in the evenings", "intent": "clinic_info", "entities": [{"type": "DOCTOR", "text": "dr bilal hussain"}]}
+{"lang": "en", "text": "roughly how much would a cardiology consult cost", "intent": "fees_query", "entities": [{"type": "DEPARTMENT", "text": "cardiology"}]}
+{"lang": "en", "text": "do u take jazzcash or easypaisa", "intent": "fees_query", "entities": []}
+{"lang": "en", "text": "is the fee same for dr ahmed khan and dr imran sheikh", "intent": "fees_query", "entities": [{"type": "DOCTOR", "text": "dr ahmed khan"}, {"type": "DOCTOR", "text": "dr imran sheikh"}]}
+{"lang": "en", "text": "since yesterday i have severe headache and vomiting", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "headache"}, {"type": "SYMPTOM", "text": "vomiting"}]}
+{"lang": "en", "text": "my son has been coughing a lot and has fever", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "coughing"}, {"type": "SYMPTOM", "text": "fever"}]}
+{"lang": "en", "text": "there is a rash on my arm should i see someone", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "rash"}]}
+{"lang": "en", "text": "ok this bot is useless get me a real human", "intent": "talk_to_human", "entities": []}
+{"lang": "en", "text": "who is the prime minister of pakistan", "intent": "out_of_scope", "entities": []}
+{"lang": "ur", "text": "پلیز مجھے جمعرات کو ڈاکٹر فرحان قریشی کا ٹائم دے دیں", "intent": "book_appointment", "entities": [{"type": "DATE", "text": "جمعرات"}, {"type": "DOCTOR", "text": "ڈاکٹر فرحان قریشی"}]}
+{"lang": "ur", "text": "امی کو امراض قلب میں دکھانا ہے اتوار کو", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "امراض قلب"}, {"type": "DATE", "text": "اتوار"}]}
+{"lang": "ur", "text": "کیا آج رات 8 بجے کا کوئی سلاٹ مل سکتا ہے", "intent": "book_appointment", "entities": [{"type": "DATE", "text": "آج"}, {"type": "TIME", "text": "رات 8 بجے"}]}
+{"lang": "ur", "text": "بچے کی جلد پر دانے نکلے ہیں اپوائنٹمنٹ چاہیے جلدی امراض میں", "intent": "book_appointment", "entities": [{"type": "SYMPTOM", "text": "جلد پر دانے"}, {"type": "DEPARTMENT", "text": "جلدی امراض"}]}
+{"lang": "ur", "text": "کل والی اپوائنٹمنٹ کینسل کر دیجیے گا", "intent": "cancel_appointment", "entities": [{"type": "DATE", "text": "کل"}]}
+{"lang": "ur", "text": "میں ڈاکٹر عمران شیخ کے پاس نہیں آ پاؤں گا بکنگ ختم کر دیں", "intent": "cancel_appointment", "entities": [{"type": "DOCTOR", "text": "ڈاکٹر عمران شیخ"}]}
+{"lang": "ur", "text": "کیا میری اپوائنٹمنٹ ہفتے سے پیر پر ہو سکتی ہے", "intent": "reschedule_appointment", "entities": [{"type": "DATE", "text": "ہفتے"}, {"type": "DATE", "text": "پیر"}]}
+{"lang": "ur", "text": "شام 7 بجے کا ٹائم رکھ دیں 5 بجے میں نہیں پہنچ سکتا", "intent": "reschedule_appointment", "entities": [{"type": "TIME", "text": "شام 7 بجے"}, {"type": "TIME", "text": "5 بجے"}]}
+{"lang": "ur", "text": "ڈاکٹر سارہ ملک کی اپوائنٹمنٹ کسی اور دن پر کر دیں", "intent": "reschedule_appointment", "entities": [{"type": "DOCTOR", "text": "ڈاکٹر سارہ ملک"}]}
+{"lang": "ur", "text": "کیا آپ لوگ جمعہ کو کھلے ہوتے ہیں", "intent": "clinic_info", "entities": [{"type": "DATE", "text": "جمعہ"}]}
+{"lang": "ur", "text": "کلینک کے قریب کوئی بس سٹاپ ہے", "intent": "clinic_info", "entities": []}
+{"lang": "ur", "text": "کیا ڈاکٹر عائشہ صدیقی شام میں بیٹھتی ہیں", "intent": "clinic_info", "entities": [{"type": "DOCTOR", "text": "ڈاکٹر عائشہ صدیقی"}]}
+{"lang": "ur", "text": "دانتوں کے ڈاکٹر کی فیس کتنی ہوگی", "intent": "fees_query", "entities": [{"type": "DEPARTMENT", "text": "دانتوں کے ڈاکٹر"}]}
+{"lang": "ur", "text": "کیا ایزی پیسہ سے فیس دے سکتے ہیں", "intent": "fees_query", "entities": []}
+{"lang": "ur", "text": "ڈاکٹر احمد خان اور ڈاکٹر بلال حسین کی فیس ایک جیسی ہے", "intent": "fees_query", "entities": [{"type": "DOCTOR", "text": "ڈاکٹر احمد خان"}, {"type": "DOCTOR", "text": "ڈاکٹر بلال حسین"}]}
+{"lang": "ur", "text": "مجھے تین دن سے الٹی اور سر درد ہے", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "الٹی"}, {"type": "SYMPTOM", "text": "سر درد"}]}
+{"lang": "ur", "text": "بچے کو کھانسی اور بخار ہے کیا کروں", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "کھانسی"}, {"type": "SYMPTOM", "text": "بخار"}]}
+{"lang": "ur", "text": "کئی دنوں سے کمر درد ہے کس کو دکھاؤں", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "کمر درد"}]}
+{"lang": "ur", "text": "یہ بوٹ کچھ سمجھ نہیں رہا کسی بندے سے بات کروائیں", "intent": "talk_to_human", "entities": []}
+{"lang": "ur", "text": "پیٹرول کی قیمت کیا ہے", "intent": "out_of_scope", "entities": []}
+{"lang": "rur", "text": "salam mujhe dr farhan qureshi se milna hai kl 5 baje", "intent": "book_appointment", "entities": [{"type": "DOCTOR", "text": "dr farhan qureshi"}, {"type": "DATE", "text": "kl"}, {"type": "TIME", "text": "5 baje"}]}
+{"lang": "rur", "text": "bhai dermatology mein koi slot hai is jumeraat ko", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "dermatology"}, {"type": "DATE", "text": "jumeraat"}]}
+{"lang": "rur", "text": "meri wife ko gynae dikhani hai sunday ko", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "gynae"}, {"type": "DATE", "text": "sunday"}]}
+{"lang": "rur", "text": "booking karni thi ent ki parson dopahar 2 baje", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "ent"}, {"type": "DATE", "text": "parson"}, {"type": "TIME", "text": "dopahar 2 baje"}]}
+{"lang": "rur", "text": "aaj nahi aa sakta appointment cancel kr dein", "intent": "cancel_appointment", "entities": [{"type": "DATE", "text": "aaj"}]}
+{"lang": "rur", "text": "dr ayesha siddiqui wali booking cancel karna hai", "intent": "cancel_appointment", "entities": [{"type": "DOCTOR", "text": "dr ayesha siddiqui"}]}
+{"lang": "rur", "text": "kya main friday ki jagah saturday aa sakta hoon", "intent": "reschedule_appointment", "entities": [{"type": "DATE", "text": "friday"}, {"type": "DATE", "text": "saturday"}]}
+{"lang": "rur", "text": "7 baje shift kar dein 5 baje wala time nahi chalega", "intent": "reschedule_appointment", "entities": [{"type": "TIME", "text": "7 baje"}, {"type": "TIME", "text": "5 baje"}]}
+{"lang": "rur", "text": "appointment thori late kar den dr sara malik ke saath hai", "intent": "reschedule_appointment", "entities": [{"type": "DOCTOR", "text": "dr sara malik"}]}
+{"lang": "rur", "text": "kya sunday ko clinic khula hota hai", "intent": "clinic_info", "entities": [{"type": "DATE", "text": "sunday"}]}
+{"lang": "rur", "text": "clinic ka location bhej dein", "intent": "clinic_info", "entities": []}
+{"lang": "rur", "text": "dr bilal hussain kis time par bethte hain", "intent": "clinic_info", "entities": [{"type": "DOCTOR", "text": "dr bilal hussain"}]}
+{"lang": "rur", "text": "orthopedic ki consultation kitne ki hai", "intent": "fees_query", "entities": [{"type": "DEPARTMENT", "text": "orthopedic"}]}
+{"lang": "rur", "text": "easypaisa ya jazzcash se payment ho jati hai", "intent": "fees_query", "entities": []}
+{"lang": "rur", "text": "dr imran sheikh aur dr fatima noor ki fees same hai kya", "intent": "fees_query", "entities": [{"type": "DOCTOR", "text": "dr imran sheikh"}, {"type": "DOCTOR", "text": "dr fatima noor"}]}
+{"lang": "rur", "text": "mujhe teen din se ulti aur sar dard hai", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "ulti"}, {"type": "SYMPTOM", "text": "sar dard"}]}
+{"lang": "rur", "text": "bachay ko khansi aur bukhar hai kya karun", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "khansi"}, {"type": "SYMPTOM", "text": "bukhar"}]}
+{"lang": "rur", "text": "bohat din se kamar dard hai kis doctor ko dikhaun", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "kamar dard"}]}
+{"lang": "rur", "text": "yaar ye bot samajh nahi raha kisi insaan se baat karwa do", "intent": "talk_to_human", "entities": []}
+{"lang": "rur", "text": "petrol ka rate kya chal raha hai", "intent": "out_of_scope", "entities": []}

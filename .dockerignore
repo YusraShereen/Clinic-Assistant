@@ -1,0 +1,11 @@
+.git
+models/
+results/
+notebooks/
+data/synthetic/
+data/*.bio.jsonl
+tests/
+docs/
+__pycache__/
+*.pyc
+.venv/

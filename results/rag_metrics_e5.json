@@ -1,0 +1,241 @@
+{
+  "embedder": "intfloat/multilingual-e5-small",
+  "rag_dev": {
+    "n_answerable": 12,
+    "n_unanswerable": 9,
+    "recall@1": 0.75,
+    "recall@3": 0.9166666666666666,
+    "mrr": 0.8159722222222222,
+    "by_lang": {
+      "en": {
+        "n": 4,
+        "recall@1": 0.75,
+        "recall@3": 1.0
+      },
+      "rur": {
+        "n": 4,
+        "recall@1": 0.5,
+        "recall@3": 0.75
+      },
+      "ur": {
+        "n": 4,
+        "recall@1": 1.0,
+        "recall@3": 1.0
+      }
+    },
+    "search_ms": {
+      "p50": 61.05179991573095,
+      "p95": 67.13730003684759
+    },
+    "abstention_score_sweep": [
+      {
+        "cutoff": 0.8447847366333008,
+        "answered_correctly": 0.75,
+        "refused": 0.0,
+        "overall": 0.42857142857142855
+      },
+      {
+        "cutoff": 0.8496207034460215,
+        "answered_correctly": 0.6666666666666666,
+        "refused": 0.0,
+        "overall": 0.38095238095238093
+      },
+      {
+        "cutoff": 0.8544566702587422,
+        "answered_correctly": 0.5833333333333334,
+        "refused": 0.1111111111111111,
+        "overall": 0.38095238095238093
+      },
+      {
+        "cutoff": 0.8592926370714628,
+        "answered_correctly": 0.5,
+        "refused": 0.2222222222222222,
+        "overall": 0.38095238095238093
+      },
+      {
+        "cutoff": 0.8641286038841834,
+        "answered_correctly": 0.4166666666666667,
+        "refused": 0.3333333333333333,
+        "overall": 0.38095238095238093
+      },
+      {
+        "cutoff": 0.8689645706969041,
+        "answered_correctly": 0.3333333333333333,
+        "refused": 0.5555555555555556,
+        "overall": 0.42857142857142855
+      },
+      {
+        "cutoff": 0.8738005375096248,
+        "answered_correctly": 0.25,
+        "refused": 0.7777777777777778,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.8786365043223454,
+        "answered_correctly": 0.16666666666666666,
+        "refused": 0.7777777777777778,
+        "overall": 0.42857142857142855
+      },
+      {
+        "cutoff": 0.8834724711350661,
+        "answered_correctly": 0.16666666666666666,
+        "refused": 0.8888888888888888,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.8883084379477868,
+        "answered_correctly": 0.08333333333333333,
+        "refused": 0.8888888888888888,
+        "overall": 0.42857142857142855
+      },
+      {
+        "cutoff": 0.8931444047605075,
+        "answered_correctly": 0.08333333333333333,
+        "refused": 1.0,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.8979803715732281,
+        "answered_correctly": 0.08333333333333333,
+        "refused": 1.0,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.9028163383859488,
+        "answered_correctly": 0.08333333333333333,
+        "refused": 1.0,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.9076523051986695,
+        "answered_correctly": 0.0,
+        "refused": 1.0,
+        "overall": 0.42857142857142855
+      }
+    ],
+    "abstention_margin_sweep": [
+      {
+        "cutoff": 0.0005499124526977539,
+        "answered_correctly": 0.75,
+        "refused": 0.0,
+        "overall": 0.42857142857142855
+      },
+      {
+        "cutoff": 0.0048113271695650545,
+        "answered_correctly": 0.75,
+        "refused": 0.2222222222222222,
+        "overall": 0.5238095238095238
+      },
+      {
+        "cutoff": 0.009072741886432355,
+        "answered_correctly": 0.6666666666666666,
+        "refused": 0.4444444444444444,
+        "overall": 0.5714285714285714
+      },
+      {
+        "cutoff": 0.013334156603299657,
+        "answered_correctly": 0.6666666666666666,
+        "refused": 0.7777777777777778,
+        "overall": 0.7142857142857143
+      },
+      {
+        "cutoff": 0.017595571320166956,
+        "answered_correctly": 0.6666666666666666,
+        "refused": 1.0,
+        "overall": 0.8095238095238095
+      },
+      {
+        "cutoff": 0.021856986037034256,
+        "answered_correctly": 0.5833333333333334,
+        "refused": 1.0,
+        "overall": 0.7619047619047619
+      },
+      {
+        "cutoff": 0.02611840075390156,
+        "answered_correctly": 0.5,
+        "refused": 1.0,
+        "overall": 0.7142857142857143
+      },
+      {
+        "cutoff": 0.03037981547076886,
+        "answered_correctly": 0.4166666666666667,
+        "refused": 1.0,
+        "overall": 0.6666666666666666
+      },
+      {
+        "cutoff": 0.03464123018763616,
+        "answered_correctly": 0.3333333333333333,
+        "refused": 1.0,
+        "overall": 0.6190476190476191
+      },
+      {
+        "cutoff": 0.03890264490450346,
+        "answered_correctly": 0.16666666666666666,
+        "refused": 1.0,
+        "overall": 0.5238095238095238
+      },
+      {
+        "cutoff": 0.04316405962137076,
+        "answered_correctly": 0.08333333333333333,
+        "refused": 1.0,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.04742547433823806,
+        "answered_correctly": 0.08333333333333333,
+        "refused": 1.0,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.051686889055105364,
+        "answered_correctly": 0.08333333333333333,
+        "refused": 1.0,
+        "overall": 0.47619047619047616
+      },
+      {
+        "cutoff": 0.05594830377197266,
+        "answered_correctly": 0.0,
+        "refused": 1.0,
+        "overall": 0.42857142857142855
+      }
+    ],
+    "fixed_margin": {
+      "cutoff": 0.018,
+      "answerable_correct": 8,
+      "answerable_wrong": 0,
+      "answerable_refused": 4,
+      "n_answerable": 12,
+      "unanswerable_refused": 9,
+      "n_unanswerable": 9
+    },
+    "always_answer_overall": 0.42857142857142855
+  },
+  "rag_test": {
+    "n_answerable": 60,
+    "n_unanswerable": 0,
+    "recall@1": 0.9,
+    "recall@3": 0.9833333333333333,
+    "mrr": 0.9402777777777779,
+    "by_lang": {
+      "en": {
+        "n": 20,
+        "recall@1": 1.0,
+        "recall@3": 1.0
+      },
+      "rur": {
+        "n": 20,
+        "recall@1": 0.8,
+        "recall@3": 0.95
+      },
+      "ur": {
+        "n": 20,
+        "recall@1": 0.9,
+        "recall@3": 1.0
+      }
+    },
+    "search_ms": {
+      "p50": 57.98559985123575,
+      "p95": 65.92399508226663
+    }
+  }
+}

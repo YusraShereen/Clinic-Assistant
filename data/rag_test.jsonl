@@ -1,0 +1,60 @@
+{"lang": "en", "question": "what time are you open during the week", "doc_id": "timings"}
+{"lang": "ur", "question": "کلینک ہفتے کے دن کتنے بجے کھلا رہتا ہے", "doc_id": "timings"}
+{"lang": "rur", "question": "sunday ko clinic kitne baje open hota hai", "doc_id": "timings"}
+{"lang": "en", "question": "where exactly is your clinic", "doc_id": "location"}
+{"lang": "ur", "question": "آپ کا clinic کس جگہ ہے", "doc_id": "location"}
+{"lang": "rur", "question": "clinic ka address kya hai", "doc_id": "location"}
+{"lang": "en", "question": "how can I contact the clinic by phone", "doc_id": "contact"}
+{"lang": "ur", "question": "کیا واٹس ایپ پر رابطہ ہو سکتا ہے", "doc_id": "contact"}
+{"lang": "rur", "question": "clinic ka WhatsApp number bhej dein", "doc_id": "contact"}
+{"lang": "en", "question": "is there somewhere I can park my car", "doc_id": "parking"}
+{"lang": "ur", "question": "کیا گاڑی کے لیے مفت parking ملتی ہے", "doc_id": "parking"}
+{"lang": "rur", "question": "parking available hai ya nahi", "doc_id": "parking"}
+{"lang": "en", "question": "what do I pay for a specialist consultation", "doc_id": "fees_general"}
+{"lang": "ur", "question": "اسپیشلسٹ کو دکھانے کی فیس کتنی ہوگی", "doc_id": "fees_general"}
+{"lang": "rur", "question": "general doctor ki fee kitni hai", "doc_id": "fees_general"}
+{"lang": "en", "question": "is a follow-up cheaper than the first visit", "doc_id": "fees_followup"}
+{"lang": "ur", "question": "دوبارہ چیک اپ کروانے پر فیس کم ہوتی ہے", "doc_id": "fees_followup"}
+{"lang": "rur", "question": "7 din ke andar followup ki fee kitni lagegi", "doc_id": "fees_followup"}
+{"lang": "en", "question": "can I pay using a debit card", "doc_id": "payment_methods"}
+{"lang": "ur", "question": "کیا card سے payment کر سکتے ہیں", "doc_id": "payment_methods"}
+{"lang": "rur", "question": "Raast se fee pay ho sakti hai?", "doc_id": "payment_methods"}
+{"lang": "en", "question": "do you take health insurance", "doc_id": "insurance"}
+{"lang": "ur", "question": "کیا insurance panel ہے آپ کا", "doc_id": "insurance"}
+{"lang": "rur", "question": "insurance accept karte hain ya nai", "doc_id": "insurance"}
+{"lang": "en", "question": "what medical specialties are available there", "doc_id": "departments"}
+{"lang": "ur", "question": "آپ کے clinic میں کون کون سے departments ہیں", "doc_id": "departments"}
+{"lang": "rur", "question": "skin aur heart ke doctors hain wahan?", "doc_id": "departments"}
+{"lang": "en", "question": "is Dr Ahmed Khan there on Wednesday evening", "doc_id": "doctors_schedule"}
+{"lang": "ur", "question": "ڈاکٹر عائشہ صدیقی کن دنوں میں آتی ہیں", "doc_id": "doctors_schedule"}
+{"lang": "rur", "question": "Dr Bilal Hussain kis din available hote hain", "doc_id": "doctors_schedule"}
+{"lang": "en", "question": "what information do you need to make a booking", "doc_id": "booking_process"}
+{"lang": "ur", "question": "اپوائنٹمنٹ book کرنے کے لیے کیا بتانا ہوگا", "doc_id": "booking_process"}
+{"lang": "rur", "question": "appointment chat se book ho sakti hai?", "doc_id": "booking_process"}
+{"lang": "en", "question": "how late can I cancel without being charged", "doc_id": "cancellation_policy"}
+{"lang": "ur", "question": "appointment کتنے گھنٹے پہلے cancel کرنی چاہیے", "doc_id": "cancellation_policy"}
+{"lang": "rur", "question": "slot reschedule karna ho to kitne hours pehle batana hai", "doc_id": "cancellation_policy"}
+{"lang": "en", "question": "what documents should I take with me on my first appointment", "doc_id": "first_visit"}
+{"lang": "ur", "question": "پہلی دفعہ ڈاکٹر کے پاس جاتے ہوئے کون سی چیزیں ساتھ لاؤں", "doc_id": "first_visit"}
+{"lang": "rur", "question": "first visit pe CNIC aur reports le kar aani hain?", "doc_id": "first_visit"}
+{"lang": "en", "question": "where should I go if it is an emergency", "doc_id": "emergency"}
+{"lang": "ur", "question": "کیا clinic emergency patients دیکھتا ہے", "doc_id": "emergency"}
+{"lang": "rur", "question": "emergency ho to clinic jana hai ya hospital", "doc_id": "emergency"}
+{"lang": "en", "question": "how long do routine test results take", "doc_id": "lab_reports"}
+{"lang": "ur", "question": "عام lab report کتنے وقت میں مل جاتی ہے", "doc_id": "lab_reports"}
+{"lang": "rur", "question": "report WhatsApp par mil sakti hai?", "doc_id": "lab_reports"}
+{"lang": "en", "question": "can my child get vaccines at the clinic", "doc_id": "vaccinations"}
+{"lang": "ur", "question": "بچے کے ٹیکے یہاں لگ جاتے ہیں؟", "doc_id": "vaccinations"}
+{"lang": "rur", "question": "bachon ki vaccination kis doctor ke paas hoti hai", "doc_id": "vaccinations"}
+{"lang": "en", "question": "do you have any female doctors", "doc_id": "female_doctor"}
+{"lang": "ur", "question": "کیا گائنی کے لیے خاتون ڈاکٹر ہیں", "doc_id": "female_doctor"}
+{"lang": "rur", "question": "female dermatologist kaun hain", "doc_id": "female_doctor"}
+{"lang": "en", "question": "can I just walk in without booking", "doc_id": "walk_in"}
+{"lang": "ur", "question": "بغیر اپوائنٹمنٹ کے آؤں تو کیا ڈاکٹر دیکھیں گے", "doc_id": "walk_in"}
+{"lang": "rur", "question": "walk in karun to kitna wait karna parega", "doc_id": "walk_in"}
+{"lang": "en", "question": "can I have a video consultation instead", "doc_id": "telemedicine"}
+{"lang": "ur", "question": "کیا follow up online ہو سکتا ہے", "doc_id": "telemedicine"}
+{"lang": "rur", "question": "online consultation ki fee different hai?", "doc_id": "telemedicine"}
+{"lang": "en", "question": "can I get a copy of my old prescription", "doc_id": "records"}
+{"lang": "ur", "question": "اپنی medical reports کی copy کہاں سے ملے گی", "doc_id": "records"}
+{"lang": "rur", "question": "purana nuskha dobara chahiye, kaise milega", "doc_id": "records"}

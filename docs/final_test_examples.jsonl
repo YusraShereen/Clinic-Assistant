@@ -1,0 +1,15 @@
+{"lang": "en", "text": "hello is dr ahmed khan available on wednesday afternoon", "intent": "clinic_info", "entities": [{"type": "DOCTOR", "text": "dr ahmed khan"}, {"type": "DATE", "text": "wednesday"}]}
+{"lang": "en", "text": "pls book my mom with the gynae doc on saturday at 4 pm", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "gynae doc"}, {"type": "DATE", "text": "saturday"}, {"type": "TIME", "text": "4 pm"}]}
+{"lang": "en", "text": "i cant come tomorrow evening so cancel it", "intent": "cancel_appointment", "entities": [{"type": "DATE", "text": "tomorrow"}]}
+{"lang": "en", "text": "i have had a terrible backache for three days which doctor should i see", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "backache"}]}
+{"lang": "en", "text": "whats the cricket score right now", "intent": "out_of_scope", "entities": []}
+{"lang": "ur", "text": "کیا ڈاکٹر بلال حسین جمعرات کو دستیاب ہیں", "intent": "clinic_info", "entities": [{"type": "DOCTOR", "text": "ڈاکٹر بلال حسین"}, {"type": "DATE", "text": "جمعرات"}]}
+{"lang": "ur", "text": "امی کو دل کے ڈاکٹر کو دکھانا ہے پیر کی شام 6 بجے", "intent": "book_appointment", "entities": [{"type": "DEPARTMENT", "text": "دل کے ڈاکٹر"}, {"type": "DATE", "text": "پیر"}, {"type": "TIME", "text": "شام 6 بجے"}]}
+{"lang": "ur", "text": "میری اپوائنٹمنٹ اگلے ہفتے پر کر دیں", "intent": "reschedule_appointment", "entities": [{"type": "DATE", "text": "اگلے ہفتے"}]}
+{"lang": "ur", "text": "ڈیبٹ کارڈ سے پیمنٹ ہو جائے گی", "intent": "fees_query", "entities": []}
+{"lang": "ur", "text": "مجھے رات سے الٹی ہو رہی ہے", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "الٹی"}]}
+{"lang": "rur", "text": "bhai kal shaam ko dr imran sheikh se milna hai", "intent": "book_appointment", "entities": [{"type": "DATE", "text": "kal"}, {"type": "DOCTOR", "text": "dr imran sheikh"}]}
+{"lang": "rur", "text": "fees kitni hai dermatology ki", "intent": "fees_query", "entities": [{"type": "DEPARTMENT", "text": "dermatology"}]}
+{"lang": "rur", "text": "mera slot parson 6 baje kar dein", "intent": "reschedule_appointment", "entities": [{"type": "DATE", "text": "parson"}, {"type": "TIME", "text": "6 baje"}]}
+{"lang": "rur", "text": "clinic ke paas koi pharmacy hai kya", "intent": "clinic_info", "entities": []}
+{"lang": "rur", "text": "mujhe teen din se bukhar aur khansi hai", "intent": "symptom_inquiry", "entities": [{"type": "SYMPTOM", "text": "bukhar"}, {"type": "SYMPTOM", "text": "khansi"}]}

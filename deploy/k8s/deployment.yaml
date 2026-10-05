@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clinic-assistant
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: clinic-assistant}
+  template:
+    metadata:
+      labels: {app: clinic-assistant}
+    spec:
+      containers:
+        - name: assistant
+          image: clinic-assistant:local          # or ghcr.io/<user>/clinic-assistant:latest
+          imagePullPolicy: IfNotPresent
+          ports: [{containerPort: 8000}]
+          env:
+            - {name: EMBEDDER, value: "e5"}
+            - {name: INTENT_THRESHOLD, value: "0.55"}
+            - {name: RETRIEVAL_MIN_SCORE, value: "0.0"}
+            - {name: RETRIEVAL_MIN_MARGIN, value: "0.018"}     # chosen on the dev set; see README Known limitations
+            - {name: CLINIC_PHONE, value: "021-000-0000"}
+          resources:
+            requests: {cpu: 500m, memory: 2Gi}
+            limits: {memory: 5Gi}
+          readinessProbe:
+            httpGet: {path: /health, port: 8000}
+            initialDelaySeconds: 40
+            periodSeconds: 10
+            failureThreshold: 18                 # model load can take a few minutes on a small CPU
+          livenessProbe:
+            httpGet: {path: /health, port: 8000}
+            initialDelaySeconds: 180
+            periodSeconds: 30
+          volumeMounts:
+            - {name: models, mountPath: /models, readOnly: true}
+      volumes:
+        - name: models
+          hostPath: {path: /opt/clinic/models, type: Directory}    # contains nlu/ (model.pt, config, tokenizer)

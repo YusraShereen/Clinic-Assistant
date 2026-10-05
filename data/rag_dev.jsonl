@@ -1,0 +1,21 @@
+{"lang": "en", "question": "are you open on sundays", "doc_id": "timings"}
+{"lang": "en", "question": "where can i park my car", "doc_id": "parking"}
+{"lang": "en", "question": "does dr sara malik see patients in the morning", "doc_id": "doctors_schedule"}
+{"lang": "en", "question": "can i pay by debit card", "doc_id": "payment_methods"}
+{"lang": "ur", "question": "اتوار کو کلینک کھلا ہے", "doc_id": "timings"}
+{"lang": "ur", "question": "بچوں کو ٹیکے لگتے ہیں", "doc_id": "vaccinations"}
+{"lang": "ur", "question": "نسخے کی کاپی چاہیے", "doc_id": "records"}
+{"lang": "ur", "question": "کیا کوئی لیڈی ڈاکٹر ہے", "doc_id": "female_doctor"}
+{"lang": "rur", "question": "clinic ka address bata dein", "doc_id": "location"}
+{"lang": "rur", "question": "report kitne din mein milti hai", "doc_id": "lab_reports"}
+{"lang": "rur", "question": "video par doctor se baat ho sakti hai", "doc_id": "telemedicine"}
+{"lang": "rur", "question": "booking cancel karne ki shart kya hai", "doc_id": "cancellation_policy"}
+{"lang": "en", "question": "do you have an MRI machine", "doc_id": null}
+{"lang": "en", "question": "do you offer home visits", "doc_id": null}
+{"lang": "en", "question": "is there a pharmacy inside the clinic", "doc_id": null}
+{"lang": "ur", "question": "کیا آپ کے ہاں ایم آر آئی مشین ہے", "doc_id": null}
+{"lang": "ur", "question": "کیا گھر پر وزٹ ہوتی ہے", "doc_id": null}
+{"lang": "ur", "question": "کیا کلینک میں فارمیسی ہے", "doc_id": null}
+{"lang": "rur", "question": "kya aap ke yahan MRI machine hai", "doc_id": null}
+{"lang": "rur", "question": "kya ghar par visit hoti hai", "doc_id": null}
+{"lang": "rur", "question": "kya clinic mein pharmacy hai", "doc_id": null}

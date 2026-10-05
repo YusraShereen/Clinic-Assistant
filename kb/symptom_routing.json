@@ -1,0 +1,151 @@
+{
+ "departments": {
+  "general_medicine": {
+   "en": "General Medicine",
+   "ur": "جنرل میڈیسن",
+   "rur": "General Medicine"
+  },
+  "cardiology": {
+   "en": "Cardiology",
+   "ur": "امراض قلب",
+   "rur": "Cardiology"
+  },
+  "dermatology": {
+   "en": "Dermatology",
+   "ur": "جلدی امراض",
+   "rur": "Dermatology"
+  },
+  "pediatrics": {
+   "en": "Pediatrics",
+   "ur": "بچوں کے امراض",
+   "rur": "Pediatrics"
+  },
+  "gynecology": {
+   "en": "Gynecology",
+   "ur": "گائنی",
+   "rur": "Gynae"
+  },
+  "orthopedics": {
+   "en": "Orthopedics",
+   "ur": "ہڈیوں کے امراض",
+   "rur": "Orthopedic"
+  },
+  "ent": {
+   "en": "ENT",
+   "ur": "ای این ٹی",
+   "rur": "ENT"
+  },
+  "dentistry": {
+   "en": "Dentistry",
+   "ur": "دندان سازی",
+   "rur": "Dentistry"
+  }
+ },
+ "_note": "DEMO routing table: symptom -> department only. Not medical advice; have a clinician review before real use.",
+ "symptoms": [
+  {
+   "keys": [
+    "fever",
+    "bukhar",
+    "بخار"
+   ],
+   "department": "general_medicine"
+  },
+  {
+   "keys": [
+    "headache",
+    "sar dard",
+    "سر درد"
+   ],
+   "department": "general_medicine"
+  },
+  {
+   "keys": [
+    "chest pain",
+    "seene mein dard",
+    "سینے میں درد",
+    "breathlessness",
+    "difficulty breathing"
+   ],
+   "department": "cardiology",
+   "red_flag": true
+  },
+  {
+   "keys": [
+    "cough",
+    "khansi",
+    "کھانسی"
+   ],
+   "department": "general_medicine"
+  },
+  {
+   "keys": [
+    "stomach pain",
+    "pait dard",
+    "پیٹ درد",
+    "acidity",
+    "تیزابیت"
+   ],
+   "department": "general_medicine"
+  },
+  {
+   "keys": [
+    "skin rash",
+    "rash",
+    "itching",
+    "skin pe daane",
+    "kharish",
+    "جلد پر دانے",
+    "خارش"
+   ],
+   "department": "dermatology"
+  },
+  {
+   "keys": [
+    "back pain",
+    "kamar dard",
+    "کمر درد",
+    "swelling",
+    "soojan",
+    "سوجن",
+    "stiffness",
+    "akrahat",
+    "اکڑن"
+   ],
+   "department": "orthopedics"
+  },
+  {
+   "keys": [
+    "sore throat",
+    "gale mein dard",
+    "گلے میں درد"
+   ],
+   "department": "ent"
+  },
+  {
+   "keys": [
+    "dizziness",
+    "chakkar",
+    "چکر",
+    "nausea",
+    "matli",
+    "متلی",
+    "vomiting",
+    "ulti",
+    "الٹی",
+    "weakness",
+    "kamzori",
+    "کمزوری"
+   ],
+   "department": "general_medicine"
+  },
+  {
+   "keys": [
+    "pain",
+    "dard",
+    "درد"
+   ],
+   "department": "general_medicine"
+  }
+ ]
+}

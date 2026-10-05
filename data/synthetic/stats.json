@@ -1,0 +1,71 @@
+{
+  "train": {
+    "n": 2160,
+    "by_lang": {
+      "en": 720,
+      "ur": 720,
+      "rur": 720
+    },
+    "by_intent": {
+      "out_of_scope": 270,
+      "talk_to_human": 270,
+      "clinic_info": 270,
+      "symptom_inquiry": 270,
+      "cancel_appointment": 270,
+      "fees_query": 270,
+      "book_appointment": 270,
+      "reschedule_appointment": 270
+    },
+    "distinct_templates": {
+      "en": 107,
+      "ur": 107,
+      "rur": 107
+    }
+  },
+  "val": {
+    "n": 288,
+    "by_lang": {
+      "rur": 96,
+      "en": 96,
+      "ur": 96
+    },
+    "by_intent": {
+      "talk_to_human": 36,
+      "fees_query": 36,
+      "out_of_scope": 36,
+      "symptom_inquiry": 36,
+      "cancel_appointment": 36,
+      "clinic_info": 36,
+      "book_appointment": 36,
+      "reschedule_appointment": 36
+    },
+    "distinct_templates": {
+      "en": 16,
+      "ur": 15,
+      "rur": 15
+    }
+  },
+  "test": {
+    "n": 480,
+    "by_lang": {
+      "en": 160,
+      "ur": 160,
+      "rur": 160
+    },
+    "by_intent": {
+      "symptom_inquiry": 60,
+      "cancel_appointment": 60,
+      "out_of_scope": 60,
+      "reschedule_appointment": 60,
+      "talk_to_human": 60,
+      "fees_query": 60,
+      "clinic_info": 60,
+      "book_appointment": 60
+    },
+    "distinct_templates": {
+      "en": 31,
+      "ur": 30,
+      "rur": 30
+    }
+  }
+}

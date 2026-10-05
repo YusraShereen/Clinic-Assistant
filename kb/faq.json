@@ -1,0 +1,322 @@
+[
+ {
+  "id": "timings",
+  "topic": "Clinic timings",
+  "en": {
+   "q": "What are the clinic timings?",
+   "a": "The clinic is open Monday to Saturday from 9 am to 9 pm. On Sundays it is open from 10 am to 2 pm."
+  },
+  "ur": {
+   "q": "کلینک کے اوقات کیا ہیں؟",
+   "a": "کلینک پیر سے ہفتہ صبح 9 بجے سے رات 9 بجے تک کھلا رہتا ہے۔ اتوار کو صبح 10 بجے سے دوپہر 2 بجے تک کھلا ہوتا ہے۔"
+  },
+  "rur": {
+   "q": "Clinic ki timings kya hain?",
+   "a": "Clinic Monday se Saturday subah 9 baje se raat 9 baje tak khula rehta hai. Itwaar ko subah 10 baje se dopahar 2 baje tak khula hota hai."
+  }
+ },
+ {
+  "id": "location",
+  "topic": "Clinic address and location",
+  "en": {
+   "q": "Where is the clinic located?",
+   "a": "We are at Block 5, Main Boulevard, Karachi (sample address), near the central bus stop."
+  },
+  "ur": {
+   "q": "کلینک کہاں واقع ہے؟",
+   "a": "ہم بلاک 5، مین بولیوارڈ، کراچی (نمونہ پتہ) میں مرکزی بس اسٹاپ کے قریب ہیں۔"
+  },
+  "rur": {
+   "q": "Clinic kahan hai?",
+   "a": "Hum Block 5, Main Boulevard, Karachi (sample address) mein markazi bus stop ke qareeb hain."
+  }
+ },
+ {
+  "id": "contact",
+  "topic": "Phone and WhatsApp contact",
+  "en": {
+   "q": "What is your phone number?",
+   "a": "You can call us on 021-000-0000 (sample number) during clinic hours, or message the same number on WhatsApp."
+  },
+  "ur": {
+   "q": "آپ کا فون نمبر کیا ہے؟",
+   "a": "آپ کلینک کے اوقات میں 021-000-0000 (نمونہ نمبر) پر کال کر سکتے ہیں یا اسی نمبر پر واٹس ایپ کر سکتے ہیں۔"
+  },
+  "rur": {
+   "q": "Aap ka phone number kya hai?",
+   "a": "Aap clinic ke auqaat mein 021-000-0000 (sample number) par call kar sakte hain ya isi number par WhatsApp kar sakte hain."
+  }
+ },
+ {
+  "id": "parking",
+  "topic": "Parking",
+  "en": {
+   "q": "Do you have parking?",
+   "a": "Free parking is available in front of the building and in the basement."
+  },
+  "ur": {
+   "q": "کیا آپ کے پاس پارکنگ ہے؟",
+   "a": "عمارت کے سامنے اور بیسمنٹ میں مفت پارکنگ دستیاب ہے۔"
+  },
+  "rur": {
+   "q": "Kya aap ke paas parking hai?",
+   "a": "Imarat ke samne aur basement mein muft parking dastiyab hai."
+  }
+ },
+ {
+  "id": "fees_general",
+  "topic": "Consultation fees",
+  "en": {
+   "q": "How much is the consultation fee?",
+   "a": "A general physician consultation is PKR 1,500 and a specialist consultation is PKR 2,500 (sample fees)."
+  },
+  "ur": {
+   "q": "کنسلٹیشن فیس کتنی ہے؟",
+   "a": "جنرل فزیشن کی کنسلٹیشن 1,500 روپے اور اسپیشلسٹ کی کنسلٹیشن 2,500 روپے ہے (نمونہ فیس)۔"
+  },
+  "rur": {
+   "q": "Consultation fee kitni hai?",
+   "a": "General physician ki consultation 1,500 rupay aur specialist ki consultation 2,500 rupay hai (sample fees)."
+  }
+ },
+ {
+  "id": "fees_followup",
+  "topic": "Follow-up visit fees",
+  "en": {
+   "q": "Is there a discount for follow-up visits?",
+   "a": "A follow-up visit within 7 days of the first visit is charged at half the consultation fee."
+  },
+  "ur": {
+   "q": "کیا فالو اپ وزٹ پر رعایت ہے؟",
+   "a": "پہلی وزٹ کے 7 دن کے اندر فالو اپ وزٹ پر کنسلٹیشن فیس آدھی لی جاتی ہے۔"
+  },
+  "rur": {
+   "q": "Kya follow up visit par discount hai?",
+   "a": "Pehli visit ke 7 din ke andar follow up visit par consultation fee aadhi li jati hai."
+  }
+ },
+ {
+  "id": "payment_methods",
+  "topic": "Accepted payment methods",
+  "en": {
+   "q": "What payment methods do you accept?",
+   "a": "We accept cash, debit and credit cards, bank transfer and Raast. Mobile wallets are not accepted at the moment."
+  },
+  "ur": {
+   "q": "آپ ادائیگی کے کون سے طریقے قبول کرتے ہیں؟",
+   "a": "ہم نقد، ڈیبٹ اور کریڈٹ کارڈ، بینک ٹرانسفر اور راست قبول کرتے ہیں۔ موبائل والٹس فی الحال قبول نہیں کیے جاتے۔"
+  },
+  "rur": {
+   "q": "Aap payment ke kaun se tareeqe qabool karte hain?",
+   "a": "Hum cash, debit aur credit card, bank transfer aur Raast qabool karte hain. Mobile wallets filhal qabool nahi kiye jate."
+  }
+ },
+ {
+  "id": "insurance",
+  "topic": "Insurance",
+  "en": {
+   "q": "Do you accept insurance?",
+   "a": "We do not currently work with insurance panels, but we provide a receipt that you can use for reimbursement."
+  },
+  "ur": {
+   "q": "کیا آپ انشورنس قبول کرتے ہیں؟",
+   "a": "ہم فی الحال انشورنس پینل کے ساتھ کام نہیں کرتے، لیکن ہم رسید فراہم کرتے ہیں جو ری ایمبرسمنٹ کے لیے استعمال ہو سکتی ہے۔"
+  },
+  "rur": {
+   "q": "Kya aap insurance accept karte hain?",
+   "a": "Hum filhal insurance panel ke saath kaam nahi karte, lekin hum receipt dete hain jo reimbursement ke liye istemal ho sakti hai."
+  }
+ },
+ {
+  "id": "departments",
+  "topic": "Departments",
+  "en": {
+   "q": "Which departments do you have?",
+   "a": "We have General Medicine, Cardiology, Dermatology, Pediatrics, Gynecology, Orthopedics, ENT and Dentistry."
+  },
+  "ur": {
+   "q": "آپ کے ہاں کون سے شعبے ہیں؟",
+   "a": "ہمارے ہاں جنرل میڈیسن، امراض قلب، جلدی امراض، بچوں کے امراض، گائنی، ہڈیوں کے امراض، ای این ٹی اور دندان سازی کے شعبے ہیں۔"
+  },
+  "rur": {
+   "q": "Aap ke yahan kaun se departments hain?",
+   "a": "Hamare yahan General Medicine, Cardiology, Dermatology, Pediatrics, Gynae, Orthopedic, ENT aur Dentistry ke departments hain."
+  }
+ },
+ {
+  "id": "doctors_schedule",
+  "topic": "Doctors and their days",
+  "en": {
+   "q": "When is each doctor available?",
+   "a": "Dr Ahmed Khan (Cardiology): Mon, Wed, Fri 4-8 pm. Dr Sara Malik (Pediatrics): Mon-Sat 10 am-2 pm. Dr Ayesha Siddiqui (Gynecology): Tue, Thu, Sat 11 am-3 pm. Dr Bilal Hussain (ENT): Mon-Thu 5-9 pm. Dr Imran Sheikh (Orthopedics): Wed, Sat 3-7 pm. Dr Fatima Noor (Dermatology): Tue, Fri 2-6 pm. (Sample schedule.)"
+  },
+  "ur": {
+   "q": "ڈاکٹر کب دستیاب ہوتے ہیں؟",
+   "a": "ڈاکٹر احمد خان (امراض قلب): پیر، بدھ، جمعہ شام 4 سے 8 بجے۔ ڈاکٹر سارہ ملک (بچوں کے امراض): پیر سے ہفتہ صبح 10 سے دوپہر 2 بجے۔ ڈاکٹر عائشہ صدیقی (گائنی): منگل، جمعرات، ہفتہ صبح 11 سے 3 بجے۔ ڈاکٹر بلال حسین (ای این ٹی): پیر سے جمعرات شام 5 سے 9 بجے۔ ڈاکٹر عمران شیخ (ہڈیوں کے امراض): بدھ، ہفتہ دوپہر 3 سے 7 بجے۔ ڈاکٹر فاطمہ نور (جلدی امراض): منگل، جمعہ دوپہر 2 سے 6 بجے۔ (نمونہ شیڈول)"
+  },
+  "rur": {
+   "q": "Doctor kab available hote hain?",
+   "a": "Dr Ahmed Khan (Cardiology): Mon, Wed, Fri shaam 4 se 8 baje. Dr Sara Malik (Pediatrics): Mon se Sat subah 10 se dopahar 2 baje. Dr Ayesha Siddiqui (Gynae): Tue, Thu, Sat subah 11 se 3 baje. Dr Bilal Hussain (ENT): Mon se Thu shaam 5 se 9 baje. Dr Imran Sheikh (Orthopedic): Wed, Sat dopahar 3 se 7 baje. Dr Fatima Noor (Dermatology): Tue, Fri dopahar 2 se 6 baje. (Sample schedule)"
+  }
+ },
+ {
+  "id": "booking_process",
+  "topic": "How to book an appointment",
+  "en": {
+   "q": "How can I book an appointment?",
+   "a": "You can book through this chat, by phone or at the front desk. Tell us the doctor or department, the day and the time, and the front desk will confirm by phone."
+  },
+  "ur": {
+   "q": "اپوائنٹمنٹ کیسے بک کروں؟",
+   "a": "آپ اس چیٹ، فون یا فرنٹ ڈیسک کے ذریعے بکنگ کروا سکتے ہیں۔ ڈاکٹر یا شعبہ، دن اور وقت بتائیں، فرنٹ ڈیسک فون پر تصدیق کرے گا۔"
+  },
+  "rur": {
+   "q": "Appointment kaise book karun?",
+   "a": "Aap is chat, phone ya front desk ke zariye booking karwa sakte hain. Doctor ya department, din aur waqt bataein, front desk phone par confirm karega."
+  }
+ },
+ {
+  "id": "cancellation_policy",
+  "topic": "Cancellation and rescheduling policy",
+  "en": {
+   "q": "What is the cancellation policy?",
+   "a": "Please cancel or reschedule at least 4 hours before your appointment. There is no charge for cancelling in time."
+  },
+  "ur": {
+   "q": "منسوخی کی پالیسی کیا ہے؟",
+   "a": "براہ کرم اپوائنٹمنٹ سے کم از کم 4 گھنٹے پہلے منسوخ یا تبدیل کریں۔ وقت پر منسوخی کا کوئی چارج نہیں ہے۔"
+  },
+  "rur": {
+   "q": "Cancellation ki policy kya hai?",
+   "a": "Please appointment se kam az kam 4 ghante pehle cancel ya reschedule karein. Waqt par cancel karne ka koi charge nahi hai."
+  }
+ },
+ {
+  "id": "first_visit",
+  "topic": "What to bring on the first visit",
+  "en": {
+   "q": "What should I bring for my first visit?",
+   "a": "Please bring a copy of your CNIC, any previous medical reports and a list of your current medicines."
+  },
+  "ur": {
+   "q": "پہلی وزٹ پر کیا لانا ہوگا؟",
+   "a": "براہ کرم اپنے شناختی کارڈ کی کاپی، پچھلی طبی رپورٹس اور موجودہ ادویات کی فہرست ساتھ لائیں۔"
+  },
+  "rur": {
+   "q": "Pehli visit par kya lana hoga?",
+   "a": "Please apne CNIC ki copy, pichli medical reports aur maujooda adviyaat ki list saath laayein."
+  }
+ },
+ {
+  "id": "emergency",
+  "topic": "Emergencies",
+  "en": {
+   "q": "Do you handle emergencies?",
+   "a": "No. The clinic does not handle emergencies. In an emergency please go to the nearest hospital emergency room or call an ambulance."
+  },
+  "ur": {
+   "q": "کیا آپ ایمرجنسی دیکھتے ہیں؟",
+   "a": "نہیں۔ کلینک ایمرجنسی کیسز نہیں دیکھتا۔ ایمرجنسی میں براہ کرم قریبی اسپتال کی ایمرجنسی جائیں یا ایمبولینس کو کال کریں۔"
+  },
+  "rur": {
+   "q": "Kya aap emergency dekhte hain?",
+   "a": "Nahi. Clinic emergency cases nahi dekhta. Emergency mein please qareebi hospital ki emergency jayein ya ambulance ko call karein."
+  }
+ },
+ {
+  "id": "lab_reports",
+  "topic": "Lab reports",
+  "en": {
+   "q": "When will my lab report be ready?",
+   "a": "Routine lab reports are ready in 24 to 48 hours. You can collect them at the front desk or ask for them on WhatsApp."
+  },
+  "ur": {
+   "q": "میری لیب رپورٹ کب تیار ہوگی؟",
+   "a": "عام لیب رپورٹس 24 سے 48 گھنٹوں میں تیار ہو جاتی ہیں۔ آپ فرنٹ ڈیسک سے لے سکتے ہیں یا واٹس ایپ پر منگوا سکتے ہیں۔"
+  },
+  "rur": {
+   "q": "Meri lab report kab tayyar hogi?",
+   "a": "Aam lab reports 24 se 48 ghanton mein tayyar ho jati hain. Aap front desk se le sakte hain ya WhatsApp par mangwa sakte hain."
+  }
+ },
+ {
+  "id": "vaccinations",
+  "topic": "Child vaccinations",
+  "en": {
+   "q": "Do you offer child vaccinations?",
+   "a": "Yes. Child vaccinations are given Monday to Saturday, 10 am to 2 pm, with Dr Sara Malik. An appointment is recommended."
+  },
+  "ur": {
+   "q": "کیا بچوں کی ویکسینیشن ہوتی ہے؟",
+   "a": "جی ہاں۔ بچوں کی ویکسینیشن پیر سے ہفتہ صبح 10 سے دوپہر 2 بجے تک ڈاکٹر سارہ ملک کے ساتھ ہوتی ہے۔ اپوائنٹمنٹ کی سفارش کی جاتی ہے۔"
+  },
+  "rur": {
+   "q": "Kya bachon ki vaccination hoti hai?",
+   "a": "Ji haan. Bachon ki vaccination Monday se Saturday subah 10 se dopahar 2 baje tak Dr Sara Malik ke saath hoti hai. Appointment ki sifarish ki jati hai."
+  }
+ },
+ {
+  "id": "female_doctor",
+  "topic": "Female doctors",
+  "en": {
+   "q": "Are there female doctors?",
+   "a": "Yes: Dr Ayesha Siddiqui (Gynecology), Dr Sara Malik (Pediatrics) and Dr Fatima Noor (Dermatology)."
+  },
+  "ur": {
+   "q": "کیا خواتین ڈاکٹر موجود ہیں؟",
+   "a": "جی ہاں: ڈاکٹر عائشہ صدیقی (گائنی)، ڈاکٹر سارہ ملک (بچوں کے امراض) اور ڈاکٹر فاطمہ نور (جلدی امراض)۔"
+  },
+  "rur": {
+   "q": "Kya khawateen doctor maujood hain?",
+   "a": "Ji haan: Dr Ayesha Siddiqui (Gynae), Dr Sara Malik (Pediatrics) aur Dr Fatima Noor (Dermatology)."
+  }
+ },
+ {
+  "id": "walk_in",
+  "topic": "Walk-ins and waiting time",
+  "en": {
+   "q": "Can I come without an appointment?",
+   "a": "Walk-ins are welcome subject to availability, but patients with appointments are seen first, so the wait can be 30 to 60 minutes."
+  },
+  "ur": {
+   "q": "کیا میں بغیر اپوائنٹمنٹ آ سکتا ہوں؟",
+   "a": "بغیر اپوائنٹمنٹ بھی آ سکتے ہیں، لیکن اپوائنٹمنٹ والے مریض پہلے دیکھے جاتے ہیں، اس لیے انتظار 30 سے 60 منٹ ہو سکتا ہے۔"
+  },
+  "rur": {
+   "q": "Kya main bina appointment aa sakta hoon?",
+   "a": "Bina appointment bhi aa sakte hain, lekin appointment wale mareez pehle dekhe jate hain, is liye intezar 30 se 60 minute ho sakta hai."
+  }
+ },
+ {
+  "id": "telemedicine",
+  "topic": "Online consultations",
+  "en": {
+   "q": "Do you offer online consultations?",
+   "a": "Online video consultations are available for follow-up visits with prior booking, at the same fee."
+  },
+  "ur": {
+   "q": "کیا آن لائن کنسلٹیشن ہوتی ہے؟",
+   "a": "فالو اپ وزٹ کے لیے پیشگی بکنگ پر آن لائن ویڈیو کنسلٹیشن دستیاب ہے، فیس وہی ہے۔"
+  },
+  "rur": {
+   "q": "Kya online consultation hoti hai?",
+   "a": "Follow up visit ke liye peshgi booking par online video consultation dastiyab hai, fee wahi hai."
+  }
+ },
+ {
+  "id": "records",
+  "topic": "Medical records and prescriptions",
+  "en": {
+   "q": "How do I get a copy of my records or prescription?",
+   "a": "Request it at the front desk with your CNIC. Copies are ready within one working day."
+  },
+  "ur": {
+   "q": "اپنے ریکارڈ یا نسخے کی کاپی کیسے ملے گی؟",
+   "a": "شناختی کارڈ کے ساتھ فرنٹ ڈیسک پر درخواست دیں۔ کاپی ایک کام کے دن میں تیار ہو جاتی ہے۔"
+  },
+  "rur": {
+   "q": "Apne record ya nuskhe ki copy kaise milegi?",
+   "a": "CNIC ke saath front desk par darkhwast dein. Copy ek kaam ke din mein tayyar ho jati hai."
+  }
+ }
+]

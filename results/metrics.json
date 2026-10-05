@@ -1,0 +1,233 @@
+{
+  "model_dir": "models/nlu",
+  "device": "cuda",
+  "synthetic_test": {
+    "overall": {
+      "n": 480,
+      "intent_acc": 0.98125,
+      "intent_macro_f1": 0.9807665042091271,
+      "entity_f1": 0.9846153846153844,
+      "entity_precision": 0.9805013927576601,
+      "entity_recall": 0.9887640449438202,
+      "entity_f1_merged": 0.9846153846153844
+    },
+    "by_lang": {
+      "en": {
+        "n": 160,
+        "intent_acc": 1.0,
+        "intent_macro_f1": 1.0,
+        "entity_f1": 1.0,
+        "entity_precision": 1.0,
+        "entity_recall": 1.0,
+        "entity_f1_merged": 1.0
+      },
+      "rur": {
+        "n": 160,
+        "intent_acc": 0.9875,
+        "intent_macro_f1": 0.9874686716791979,
+        "entity_f1": 0.9497716894977168,
+        "entity_precision": 0.9369369369369369,
+        "entity_recall": 0.9629629629629629,
+        "entity_f1_merged": 0.9497716894977168
+      },
+      "ur": {
+        "n": 160,
+        "intent_acc": 0.95625,
+        "intent_macro_f1": 0.9536435786435786,
+        "entity_f1": 1.0,
+        "entity_precision": 1.0,
+        "entity_recall": 1.0,
+        "entity_f1_merged": 1.0
+      }
+    },
+    "by_intent_f1": {
+      "book_appointment": {
+        "f1": 0.96,
+        "support": 60
+      },
+      "cancel_appointment": {
+        "f1": 1.0,
+        "support": 60
+      },
+      "reschedule_appointment": {
+        "f1": 1.0,
+        "support": 60
+      },
+      "clinic_info": {
+        "f1": 0.9836065573770492,
+        "support": 60
+      },
+      "fees_query": {
+        "f1": 0.918918918918919,
+        "support": 60
+      },
+      "symptom_inquiry": {
+        "f1": 1.0,
+        "support": 60
+      },
+      "talk_to_human": {
+        "f1": 1.0,
+        "support": 60
+      },
+      "out_of_scope": {
+        "f1": 0.9836065573770492,
+        "support": 60
+      }
+    }
+  },
+  "dev_handwritten": {
+    "overall": {
+      "n": 72,
+      "intent_acc": 0.9166666666666666,
+      "intent_macro_f1": 0.9038789682539683,
+      "entity_f1": 0.9637305699481865,
+      "entity_precision": 0.9587628865979382,
+      "entity_recall": 0.96875,
+      "entity_f1_merged": 0.9637305699481865
+    },
+    "by_lang": {
+      "en": {
+        "n": 24,
+        "intent_acc": 0.875,
+        "intent_macro_f1": 0.7582792207792208,
+        "entity_f1": 0.9846153846153847,
+        "entity_precision": 0.9696969696969697,
+        "entity_recall": 1.0,
+        "entity_f1_merged": 0.9846153846153847
+      },
+      "rur": {
+        "n": 24,
+        "intent_acc": 0.875,
+        "intent_macro_f1": 0.9163059163059163,
+        "entity_f1": 0.9117647058823528,
+        "entity_precision": 0.9117647058823529,
+        "entity_recall": 0.9117647058823529,
+        "entity_f1_merged": 0.9117647058823528
+      },
+      "ur": {
+        "n": 24,
+        "intent_acc": 1.0,
+        "intent_macro_f1": 1.0,
+        "entity_f1": 1.0,
+        "entity_precision": 1.0,
+        "entity_recall": 1.0,
+        "entity_f1_merged": 1.0
+      }
+    },
+    "by_intent_f1": {
+      "book_appointment": {
+        "f1": 0.875,
+        "support": 15
+      },
+      "cancel_appointment": {
+        "f1": 1.0,
+        "support": 7
+      },
+      "reschedule_appointment": {
+        "f1": 0.8888888888888888,
+        "support": 10
+      },
+      "clinic_info": {
+        "f1": 1.0,
+        "support": 10
+      },
+      "fees_query": {
+        "f1": 0.9,
+        "support": 11
+      },
+      "symptom_inquiry": {
+        "f1": 0.96,
+        "support": 12
+      },
+      "talk_to_human": {
+        "f1": 0.8571428571428571,
+        "support": 4
+      },
+      "out_of_scope": {
+        "f1": 0.75,
+        "support": 3
+      }
+    }
+  },
+  "final_test": {
+    "overall": {
+      "n": 72,
+      "intent_acc": 0.9722222222222222,
+      "intent_macro_f1": 0.971875,
+      "entity_f1": 0.9251700680272109,
+      "entity_precision": 0.9066666666666666,
+      "entity_recall": 0.9444444444444444,
+      "entity_f1_merged": 0.9251700680272109
+    },
+    "by_lang": {
+      "en": {
+        "n": 24,
+        "intent_acc": 1.0,
+        "intent_macro_f1": 1.0,
+        "entity_f1": 0.8799999999999999,
+        "entity_precision": 0.8461538461538461,
+        "entity_recall": 0.9166666666666666,
+        "entity_f1_merged": 0.8799999999999999
+      },
+      "rur": {
+        "n": 24,
+        "intent_acc": 1.0,
+        "intent_macro_f1": 1.0,
+        "entity_f1": 0.9565217391304348,
+        "entity_precision": 0.9565217391304348,
+        "entity_recall": 0.9565217391304348,
+        "entity_f1_merged": 0.9565217391304348
+      },
+      "ur": {
+        "n": 24,
+        "intent_acc": 0.9166666666666666,
+        "intent_macro_f1": 0.90625,
+        "entity_f1": 0.9411764705882353,
+        "entity_precision": 0.9230769230769231,
+        "entity_recall": 0.96,
+        "entity_f1_merged": 0.9411764705882353
+      }
+    },
+    "by_intent_f1": {
+      "book_appointment": {
+        "f1": 0.875,
+        "support": 9
+      },
+      "cancel_appointment": {
+        "f1": 1.0,
+        "support": 9
+      },
+      "reschedule_appointment": {
+        "f1": 0.9,
+        "support": 9
+      },
+      "clinic_info": {
+        "f1": 1.0,
+        "support": 9
+      },
+      "fees_query": {
+        "f1": 1.0,
+        "support": 9
+      },
+      "symptom_inquiry": {
+        "f1": 1.0,
+        "support": 9
+      },
+      "talk_to_human": {
+        "f1": 1.0,
+        "support": 9
+      },
+      "out_of_scope": {
+        "f1": 1.0,
+        "support": 9
+      }
+    }
+  },
+  "latency": {
+    "device": "cuda",
+    "n": 200,
+    "p50_ms": 9.393606999992699,
+    "p95_ms": 11.11054079999576,
+    "mean_ms": 9.659154944997681
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "intents": [
+    "book_appointment",
+    "cancel_appointment",
+    "reschedule_appointment",
+    "clinic_info",
+    "fees_query",
+    "symptom_inquiry",
+    "talk_to_human",
+    "out_of_scope"
+  ],
+  "intent2id": {
+    "book_appointment": 0,
+    "cancel_appointment": 1,
+    "reschedule_appointment": 2,
+    "clinic_info": 3,
+    "fees_query": 4,
+    "symptom_inquiry": 5,
+    "talk_to_human": 6,
+    "out_of_scope": 7
+  },
+  "ner_labels": [
+    "O",
+    "B-DOCTOR",
+    "I-DOCTOR",
+    "B-DEPARTMENT",
+    "I-DEPARTMENT",
+    "B-DATE",
+    "I-DATE",
+    "B-TIME",
+    "I-TIME",
+    "B-SYMPTOM",
+    "I-SYMPTOM"
+  ],
+  "ner2id": {
+    "O": 0,
+    "B-DOCTOR": 1,
+    "I-DOCTOR": 2,
+    "B-DEPARTMENT": 3,
+    "I-DEPARTMENT": 4,
+    "B-DATE": 5,
+    "I-DATE": 6,
+    "B-TIME": 7,
+    "I-TIME": 8,
+    "B-SYMPTOM": 9,
+    "I-SYMPTOM": 10
+  }
+}

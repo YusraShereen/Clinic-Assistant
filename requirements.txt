@@ -1,0 +1,10 @@
+# Phase 1 (data) needs only the Python standard library.
+# Phase 2+ (added as we reach them):
+torch
+transformers
+datasets
+scikit-learn
+sentence-transformers
+chromadb
+fastapi
+uvicorn

@@ -1,0 +1,17 @@
+{
+  "synthetic_test": {
+    "n": 480,
+    "intent_acc": 0.8333333333333334,
+    "intent_macro_f1": 0.8335262015974056
+  },
+  "dev_handwritten": {
+    "n": 72,
+    "intent_acc": 0.9027777777777778,
+    "intent_macro_f1": 0.8760103383458646
+  },
+  "final_test": {
+    "n": 72,
+    "intent_acc": 0.8888888888888888,
+    "intent_macro_f1": 0.8915755995380608
+  }
+}
