@@ -60,7 +60,6 @@ Read with care: 72 examples is small (the interval above is wide; per-intent and
 | NLU model only, single utterance | 20.2 ms | 29.2 ms | author's laptop CPU, 200 requests (`scripts/eval_nlu.py`) |
 | Full API, server-side | 57.6 ms | 118.1 ms | local laptop CPU, 100 requests (`scripts/bench_api.py`) |
 | Full API, client round trip | 77.5 ms | 131.6 ms | same run, via `127.0.0.1` |
-| **Deployed on AWS EC2 (k3s)** | _pending_ | _pending_ | instance type: _pending_ |
 
 ### Development diagnostics (optimistic: not headline numbers)
 
