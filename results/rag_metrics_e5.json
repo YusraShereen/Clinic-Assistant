@@ -24,8 +24,8 @@
       }
     },
     "search_ms": {
-      "p50": 61.05179991573095,
-      "p95": 67.13730003684759
+      "p50": 15.823099995031953,
+      "p95": 20.374499988975003
     },
     "abstention_score_sweep": [
       {
@@ -234,8 +234,15 @@
       }
     },
     "search_ms": {
-      "p50": 57.98559985123575,
-      "p95": 65.92399508226663
+      "p50": 14.788050000788644,
+      "p95": 20.73180999504982
+    },
+    "fixed_margin_answerable_only": {
+      "cutoff": 0.018,
+      "answerable_correct": 41,
+      "answerable_wrong": 0,
+      "answerable_refused": 19,
+      "n_answerable": 60
     }
   }
 }

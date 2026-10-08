@@ -1,6 +1,6 @@
 {
-  "model_dir": "models/nlu",
-  "device": "cuda",
+  "model_dir": "models\\nlu",
+  "device": "cpu",
   "synthetic_test": {
     "overall": {
       "n": 480,
@@ -224,10 +224,10 @@
     }
   },
   "latency": {
-    "device": "cuda",
+    "device": "cpu",
     "n": 200,
-    "p50_ms": 9.393606999992699,
-    "p95_ms": 11.11054079999576,
-    "mean_ms": 9.659154944997681
+    "p50_ms": 20.233100280165672,
+    "p95_ms": 29.165980103425667,
+    "mean_ms": 21.889173514209688
   }
 }

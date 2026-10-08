@@ -6,3 +6,7 @@ models/
 *.bin
 *.safetensors
 .ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+*.egg-info/
+Thumbs.db

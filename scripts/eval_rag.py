@@ -110,6 +110,15 @@ def main():
             res["always_answer_overall"] = always
         elif not neg:
             print("  (no unanswerable questions in this file: add rows with \"doc_id\": null for the abstention table)")
+            if args.min_margin is not None and pos:
+                t = args.min_margin
+                ok = sum(1 for _, c, m_ in pos if c and m_ >= t)
+                wrong = sum(1 for _, c, m_ in pos if (not c) and m_ >= t)
+                refused = sum(1 for _, _, m_ in pos if m_ < t)
+                print(f"\n  >>> AT FIXED MARGIN CUTOFF {t} (answerable questions only; cost of the cutoff):")
+                print(f"      {ok}/{len(pos)} answered correctly, {wrong} answered wrongly, {refused} sent to front desk")
+                res["fixed_margin_answerable_only"] = {"cutoff": t, "answerable_correct": ok, "answerable_wrong": wrong,
+                                                       "answerable_refused": refused, "n_answerable": len(pos)}
         out[name] = res
     (ROOT / "results").mkdir(exist_ok=True)
     (ROOT / "results" / f"rag_metrics_{args.embedder}.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
