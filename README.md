@@ -42,7 +42,6 @@ Read with care: 72 examples is small (the interval above is wide; per-intent and
 | recall@3 | **98.3 %** (59 / 60); 95 % interval 91.1 - 99.7 % |
 | MRR | 0.940 |
 | Retrieval time (laptop CPU) | p50 12.8 ms, p95 45.6 ms |
-| Lexical hash baseline, same set | _pending: `python scripts/eval_rag.py --embedder hash --final`_ |
 
 | Language | n | recall@1 | recall@3 |
 |---|---|---|---|
@@ -164,7 +163,7 @@ Model: `xlm-roberta-base` + two linear heads (intent on `[CLS]`, BIO tags per fi
 1. **Synthetic data** is generated from templates with slot filling, prefix/suffix variation, casing and spelling noise, and hard negatives (payment words, day-parts, body parts, family words, non-clinic questions). The split is **by template**, with a **coverage guard**: every slot type and error-prone pattern keeps at least 2 templates in training (an earlier split silently removed whole patterns from training; the guard fixed that).
 2. `synthetic/test` has 480 examples but only ~30 distinct templates per language, so it is a diagnostic, not a headline.
 3. `dev_handwritten.jsonl` (72) was used to find errors and shape data fixes; scores on it are optimistic.
-4. `final_test.jsonl` was written independently by the author, committed **before** evaluation, and evaluated **once** with the explicit `--final` flag; the model was frozen first. The same protocol applies to `rag_test.jsonl` (cutoffs chosen on dev, then fixed).
+4. `final_test.jsonl` was written independently by the author, committed **before** evaluation, and evaluated **once** with the explicit `--final` flag; the model was frozen first.
 
 ## Known limitations
 
